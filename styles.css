@@ -396,6 +396,7 @@ font-size: 1.2rem;
 font-family: 'Merriweather Sans';
 font-weight: 100;
 padding: 0 3rem 5rem 3rem;
+<<<<<<< HEAD
 line-height: 175%;
 
 }
@@ -418,10 +419,13 @@ line-height: 175%;
     border-radius: 0.2rem;
     margin: 0.1rem auto 0 auto;
     transition: all 0.3s ease-in-out;
+=======
+>>>>>>> 9f1835560ac18ea0c58e0f90ac1fc72f78bbaf37
 }
 .map{
     box-shadow: 2px 2px 1px #E64A1A;
     margin-bottom: 2rem;
+<<<<<<< HEAD
     box-shadow: 2px 2px 1px #E64A1A;
     
 }
@@ -603,6 +607,9 @@ line-height: 175%;
     cursor: pointer;
   }
   
+=======
+}
+>>>>>>> 9f1835560ac18ea0c58e0f90ac1fc72f78bbaf37
 /* medias querys */
 
 @media(min-width:979px){
@@ -643,6 +650,11 @@ line-height: 175%;
     .menuH:hover:not(:last-child)::after{
         width: 2rem;
     } 
+<<<<<<< HEAD
+=======
+ 
+    
+>>>>>>> 9f1835560ac18ea0c58e0f90ac1fc72f78bbaf37
     .submenu {
         position: relative;
         display: none;
