@@ -1,0 +1,36 @@
+Styles2
+
+.MyHTML{
+    border: 5px outset #ffa811ea;
+    border-radius: 20px;
+    background-color: #ffe494;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 15%;
+    padding: 5%;
+
+}
+
+.MyJS{
+    border: 5px outset #FFC100;
+    border-radius: 20px;
+    background-color: #FFFAAA;
+    margin-bottom: 10%;
+    margin-left: 14%;
+    margin-right: 15%;
+    padding: 5%;
+
+}
+
+.MyCSS{
+    border: 5px outset #2949ff;
+    border-radius: 20px;
+    background-color: #b7bfff;
+    margin-bottom: 5%;
+    margin-left: 14%;
+    margin-right: 15%;
+    padding: 5%;
+    
+
+}
