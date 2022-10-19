@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="es">
+    <html lang="en">
         <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,11 @@
             <link rel="stylesheet" href="styles.css">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="icon" type="image/png" href="./Resources/logocac.svg"/>
+
         </head>
         <body>
+            <!-- header -->
             <div class="glass">
                 <header class="header">        
                     <div class="logoC">
@@ -28,11 +31,11 @@
                                     <li class="menuH horizontal"><a class="efecto" href="./index.htm">Inicio</a></li>
                                     <li class="menuH horizontal"><a class="efecto" href="./nosotros.htm">Nosotros</a></li>
                                     <li class="menuH horizontal" >
-                                        <a class="efecto" href="">Lenguajes <i id="chev" class="fa-solid fa-chevron-down"></i></a>
+                                        <a class="efecto" href="./lenguajes.htm">Lenguajes <i id="chev" class="fa-solid fa-chevron-down"></i></a>
                                         <ul class="submenu vertical">
-                                            <li ><a href="" >HTML5</a></li>
-                                            <li ><a href="" >CSS</a></li>
-                                            <li ><a href="" >JavaScript</a></li>
+                                            <li ><a href="./HTML.htm" >HTML5</a></li>
+                                            <li ><a href="./CSS.htm" >CSS</a></li>
+                                            <li ><a href="./JAVA.htm" >JavaScript</a></li>
                                         </ul>
                                     </li>
                                     <li class="menuH horizontal"><a class="efecto" href="./contacto.htm">Contacto</a></li>
@@ -40,8 +43,6 @@
                                 </ul>
                             </nav>    
                 </header> 
-
-
                 <section class="principal">
                         <article id="texto">
                             <h1>Escribamos el futuro en líneas de código</h1>
@@ -50,7 +51,6 @@
                 </section>
                 <section>
                         <article>
-<<<<<<< HEAD
                             <p class="copy"> <br>
                                 Buscamos aportar al desarrollo de las personas que sienten pasión y curiosidad por las <strong>Tecnologías de la Información </strong> y el <strong> Desarrollo de la Web </strong>. <br>
                                 Para ello, ofrecemos herramientas e instrumentos de capacitación que permitan crear tecnología que potencie el desarrollo de la sociedad y la conexión humana.
@@ -63,31 +63,28 @@
                 <section>
                     <div class="map" style="width: 100%"><iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=paran%C3%A1%20100,%20buenos%20aires,%20argentina+(ENCONTRANOS)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/"></a></iframe></div>
                 </section>
-=======
-                            <p class="copy">Buscamos resolver problemas de la sociedad a través de la cooperación humana. Aplicamos conocimiento científico y la experiencia de nuestro Laboratorio para crear una tecnología que potencia la cooperación en cualquier espacio. Trabajamos para conectar a la humanidad en una sola red.</p>
-                        </article>
+                <section id="api">
+                    <h3 id="nostext"> Conocenos</h3>
+                    <div id="perfil">
+                    </div>
+                    <script src="./api.js"></script>
+                    <script src="./script.js"></script>
                 </section>
-                <section>
-                    <div class="map" style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=paran%C3%A1%20100,%20buenos%20aires,%20argentina+(ENCONTRANOS)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">fitness tracker</a></iframe></div>
-                </section>
-
-
->>>>>>> 9f1835560ac18ea0c58e0f90ac1fc72f78bbaf37
-
+                <!-- footer -->
                 <footer>
                     <aside>
                         <h4>CaC - Teach <strong>|</strong> Aprendé FrontEnd <strong>|</strong> Argentina</h4>
                     </aside>
                     <aside>
                             <ul class="footer">
-                                <li class="footer"><a href="" title=""><strong>Clases online</strong></a></li>
-                                <li class="footer"><a href="" title=""><strong>Diseño Web</strong></a></li>
-                                <li class="footer"><a href="" title="S"><strong>Maquetado HTML</strong></a></li>
-                                <li class="footer"><a href="" title=""><strong>Estilos CSS</strong></a></li>
+                                <li class="footer"><a href="./index.htm" title=""><strong>Clases online</strong></a></li>
+                                <li class="footer"><a href="./index.htm" title=""><strong>Diseño Web</strong></a></li>
+                                <li class="footer"><a href="./index.htm" title="S"><strong>Maquetado HTML</strong></a></li>
+                                <li class="footer"><a href="./index.htm" title=""><strong>Estilos CSS</strong></a></li>
                             </ul>
                     </aside>
                     <aside id="sm-footer">
-                            <a class="footerC" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                            <a class="footerC" href="https://www.facebook.com/profile.php?id=100086662726684"><i class="fab fa-facebook"></i></a>
                             <a class="footerC" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                             <a class="footerC" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
                             <a class="footerC" href="https://youtube.com"><i class="fab fa-youtube"></i></a>    
@@ -99,5 +96,6 @@
             </footer>    
             </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
         </body>
     </html>
