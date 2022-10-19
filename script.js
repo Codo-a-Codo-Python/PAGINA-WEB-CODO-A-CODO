@@ -58,34 +58,3 @@ verificacionR.addEventListener("input",
       verificacionR.setCustomValidity("Las contraseñas deben coincidir");
     }
 });
-//how to avoid that the password and user appears in browser bar?
-
-
-  // const form=document.getElementById("signup");
-  // const emailR=document.getElementById("mailR");
-  // const emailError=document.querySelector("#mail + span.error");
-
-  // emailR.addEventListener("input",
-  // function(event){
-  //   if(emailR.validity.valid){
-  //     emailError.className ="error"
-  //   }else{
-  //     showError();
-  //   }
-  // });
-  // form.addEventListener("submit",
-  // function(event){
-  //   if(!emailR.validity.valid){
-  //     showError();
-  //     event.preventDefault();
-  //   }
-  // });
-  // function showError(){
-  //   if (emailR.validity.valueMissing){
-  //     emailError.textContent="Debe introducir una dirección de Correo Electrónico.";
-  //   }else if (emailError.validity.typeMissmatch){
-  //     emailError.textContent="Ingrese una dirección de correo electrónico válida";
-  //   }
-  //   emailError.className="error activo";
-  // }
-

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="es">
+    <html lang="en">
         <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,11 @@
             <link rel="stylesheet" href="styles.css">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="icon" type="image/png" href="./Resources/logocac.svg"/>
+            <script src="https://unpkg.com/vue@next"></script>
         </head>
         <body>
+            <!-- header -->
             <div class="glass">
                 <header class="header">        
                     <div class="logoC">
@@ -28,11 +31,11 @@
                                     <li class="menuH horizontal"><a class="efecto" href="./index.htm">Inicio</a></li>
                                     <li class="menuH horizontal"><a class="efecto" href="./nosotros.htm">Nosotros</a></li>
                                     <li class="menuH horizontal" >
-                                        <a class="efecto" href="">Lenguajes <i id="chev" class="fa-solid fa-chevron-down"></i></a>
+                                        <a class="efecto" href="./lenguajes.htm">Lenguajes <i id="chev" class="fa-solid fa-chevron-down"></i></a>
                                         <ul class="submenu vertical">
-                                            <li ><a href="" >HTML5</a></li>
-                                            <li ><a href="" >CSS</a></li>
-                                            <li ><a href="" >JavaScript</a></li>
+                                            <li ><a href="./HTML.htm" >HTML5</a></li>
+                                            <li ><a href="./CSS.htm" >CSS</a></li>
+                                            <li ><a href="./JAVA.htm" >JavaScript</a></li>
                                         </ul>
                                     </li>
                                     <li class="menuH horizontal"><a class="efecto" href="./contacto.htm">Contacto</a></li>
@@ -41,48 +44,46 @@
                             </nav>    
                 </header> 
 
-
+                <!-- seccion1 -->
                 <section class="principal">
                     <article id="texto">
                         <h1>Descubre el <br>Poder del <br>Conocimiento</h1>
                         <p id="subt">Te ayudamos a organizar tu estudio en el mundo del <strong>FrontEnd</strong></p>
-<<<<<<< HEAD
                         <button class="binicio CTA" id="butt"><a href="formulario.htm">COMENCEMOS</a></button>
-=======
-                        <button class="binicio CTA" id="butt"><a href="./formulario.htm">COMENCEMOS</a></button>
->>>>>>> 9f1835560ac18ea0c58e0f90ac1fc72f78bbaf37
                     </article>
                     <div >
                         <img class="imagen-init" src="./Resources/IMAGEN INICIO_.svg" alt="Persona estudiando en línea">
                     </div>
                 </section>
+                <!-- seccion2 -->
                 <section>
                     <div id="right">
-                        <div id="pick"><h3>ELEGÍ UN LENGUAJE PARA COMENZAR</h3></div>
+                        <div class="pick"><h3>ELEGÍ UN LENGUAJE PARA COMENZAR</h3></div>
                         <div id="tarjeta">                
-                            <button class="tarjetas" id="html5"><img class="bt" src="./Resources/html.svg" alt="logo html5"></button>
-                            <button class="tarjetas" id="css3"><img class="bt" src="./Resources/css.svg" alt="logo CSS3"></button>
-                            <button class="tarjetas" id="js"><img class="bt" src="./Resources/js.svg" alt="logo JavaScript"></button>
+                            <button class="tarjetas" id="html5"><a href="./HTML.htm">
+                                <img class="bt" src="./Resources/html.svg" alt="logo html5"></a></button>
+                            <button class="tarjetas" id="css3"><a href="./CSS.htm"> <img class="bt" src="./Resources/css.svg" alt="logo CSS3"></a></button>
+                            <button class="tarjetas" id="js"><a href="./JAVA.htm"> <img class="bt" src="./Resources/js.svg" alt="logo JavaScript"></a></button>
                         </div>
                     </div>
                 </section>
-
-
+                <!-- seccion3 -->
                 
+                <!-- footer -->
         <footer>
                 <aside>
                     <h4>CaC - Teach <strong>|</strong> Aprendé FrontEnd <strong>|</strong> Argentina</h4>
                 </aside>
                 <aside>
                         <ul class="footer">
-                            <li class="footer"><a href="" title=""><strong>Clases online</strong></a></li>
-                            <li class="footer"><a href="" title=""><strong>Diseño Web</strong></a></li>
-                            <li class="footer"><a href="" title="S"><strong>Maquetado HTML</strong></a></li>
-                            <li class="footer"><a href="" title=""><strong>Estilos CSS</strong></a></li>
+                            <li class="footer"><a href="./index.htm" title=""><strong>Clases online</strong></a></li>
+                            <li class="footer"><a href="./index.htm" title=""><strong>Diseño Web</strong></a></li>
+                            <li class="footer"><a href="./index.htm" title="S"><strong>Maquetado HTML</strong></a></li>
+                            <li class="footer"><a href="./index.htm" title=""><strong>Estilos CSS</strong></a></li>
                         </ul>
                 </aside>
                 <aside id="sm-footer">
-                        <a class="footerC" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a class="footerC" href="https://www.facebook.com/profile.php?id=100086662726684"><i class="fab fa-facebook"></i></a>
                         <a class="footerC" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                         <a class="footerC" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
                         <a class="footerC" href="https://youtube.com"><i class="fab fa-youtube"></i></a>    
@@ -94,5 +95,6 @@
         </footer>    
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     </body>
 </html>
