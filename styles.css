@@ -717,12 +717,15 @@ line-height: 175%;
             top: 7%;
             width: 27rem;
         }
+
     }
+
     @media (max-width:575px){
         .imagen-init, .imagen-nos{
             width: 0%;
 
         }
+        
         .tarjetas{    
             height: 5rem;
             width: 3.75rem;
@@ -750,6 +753,7 @@ line-height: 175%;
         h1{
             margin-left: 0;
         }
+        
     }
 
     /* API */
@@ -897,7 +901,11 @@ iframe {
   background: white;
 }
 
-.thumbnails input[name="select"]:checked ~ .content { opacity: 1; }
+.thumbnails input[name="select"]:checked ~ .content { 
+  opacity: 1; 
+}
+
+
 
 .white-box {
   background: white;
@@ -967,4 +975,8 @@ iframe {
       #bcontact a{
         text-decoration: none;
         color: #000 !important;
+      }
+      .item-wrapper{
+        display: flex;
+        width: 80%;
       }
